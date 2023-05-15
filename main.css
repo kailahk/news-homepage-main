@@ -3,10 +3,12 @@
 }
 
 body {
-    width: 325px;
+    width: 335px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 15px;
+    background-color: hsl(36, 100%, 99%);
 }
 
 nav {
@@ -15,4 +17,100 @@ nav {
 
 p {
     font-size: 15px;
+    line-height: 24px;
+}
+
+h1 {
+    font-weight: 800;
+    width: 280px;
+    line-height: 45px;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+hr {
+    border-color: hsl(233, 8%, 79%);
+    border-width: .5px;
+    margin: 30px 0;
+}
+
+#logo-and-menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+#w-logo {
+    height: 30px;
+}
+
+#top-of-page {
+    margin-top: -15px;
+}
+
+#read-more {
+    width: 170px;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    padding: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 70px;
+    margin-top: 15px;
+}
+
+#new-section {
+    background-color: black;
+    color: hsl(36, 100%, 99%);
+    padding: 0 20px 10px 20px;
+    margin-bottom: 75px;
+}
+
+#new-section > h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+#new-section > div > p {
+    width: 290px;
+    color: hsl(233, 8%, 79%);
+}
+
+#bottom-section {
+    margin-bottom: 30px;
+}
+
+#bottom-section > div {
+    display: flex;
+    height: 150px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+#bottom-section > div > img {
+    height: 140px;
+    padding-right: 20px;
+}
+
+[id*="bottom-section-"] > h2 {
+    margin: 0;
+    color: hsl(233, 8%, 79%);
+}
+
+[id*="bottom-section-"] > h4 {
+    margin: 12px 0;
+    font-weight: 800;
+    font-size: 18px;
+    width: 240px;
+}
+
+[id*="bottom-section-"] > p {
+    width: 220px;
 }
